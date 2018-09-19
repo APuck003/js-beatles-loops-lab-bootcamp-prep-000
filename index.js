@@ -30,7 +30,11 @@ function iLoveTheBeatles(number) {
   do {
     arr.push("I love the Beatles!");
     number++;
-  } while (number < 15);
+  } while (number < 15) {
+    if (number === 17) {
+      number === 1;
+    }
+  }
   return arr;
 }
 
